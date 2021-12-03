@@ -1,0 +1,16 @@
+// Using a const as myAge wont change.
+const myAge = 30;
+// Using a let instead of a const as this will change and need a changeable variable.
+let earlyYears = 2;
+earlyYears  *= 10.5;
+// changing laterYears by subtracting myAge by 2 to give us the answer. 
+let laterYears = myAge - 2;
+// Using the multiplication assignment operator to multiply and assign in one step. 
+laterYears *= 4; 
+console.log(earlyYears);
+console.log(laterYears);
+// creating a variable named myAgeInDogYears and the answer will be my other two variables added together. 
+const myAgeInDogYears = earlyYears + laterYears;
+let myName = 'Rikardo Dunkley';
+'Rikardo Dunkley'.toLowerCase();
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
