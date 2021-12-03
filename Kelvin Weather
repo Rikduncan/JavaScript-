@@ -1,0 +1,9 @@
+// Setting a variable named kelvin and setting it equal to 293.
+const kelvin = 293;
+// creating another variable but this time i'm subtracking my other variable (kelvin) to give me the answer.
+const celsius = kelvin - 273;
+// Using a let vaiable as fahrenheit can be changed later? 
+let fahrenheit = celsius * (9/5) + 32;
+// Simple; use the Math.floor() method to round up the answer of fahrenheit. 
+fahrenheit = Math.floor(fahrenheit);
+console.log('The temperature is ' + fahrenheit + ' degrees Fahrenheit.');
